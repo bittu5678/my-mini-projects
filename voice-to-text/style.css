@@ -1,0 +1,154 @@
+*,*:after,*:before{
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    -ms-box-sizing: border-box;
+    box-sizing: border-box;
+}
+/*body{
+    /*font-family:  arial;
+    font-size:16px;
+    margin:0;
+    background: linear-gradient(to right bottom,#d13cff,#031f6a);
+    display:flex;
+    align-items:center;
+    justify-content:center ;
+    min-height :100vh; 
+    color:#000;
+
+}*/
+body {
+    font-family: arial;
+    font-size: 16px;
+    margin: 0;
+    background: 
+        url('https://wallpapercrafter.com/desktop4/1131181-boke-camera-dark-photoshop-dots-bubbles-night.jpg') no-repeat center center, /* Replace 'background.jpg' with your image path */
+        linear-gradient(to right bottom, #d13cff, #031f6a); /* Gradient overlay */
+    background-size: cover; /* Ensures the image covers the entire background */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh; 
+    color: #000;
+}
+
+
+
+
+
+
+
+
+.voice_to_text{
+    width: 600px;
+    text-align: center;
+}
+#convert_text{
+    width: 100%;
+    height: 200px;
+    border-radius: 10px;
+    resize: none;
+    padding:10px;
+    font-size:20px;
+    margin-bottom: 10px;
+}
+h1 {
+    font-size: 50px;
+    color: hsl(142, 87%, 44%);
+    text-shadow: 2px 2px 5px hwb(286 4% 7% / 0.655); /* Adds a subtle shadow */
+    transition: all 0.3s ease; /* Smooth transition for hover effects */
+}
+
+h1:hover {
+    color: hsl(221, 100%, 50%); /* Changes the text color on hover */
+    text-shadow: 4px 4px 10px rgba(0, 0, 0, 0.8), 0 0 10px #ebbe0bcc; /* Stronger shadow and glow effect */
+    transform: scale(1.1); /* Slightly enlarges the text on hover */
+}
+
+    /*button{
+        padding:12px 20px;
+        background:#0ea4da;
+        border:0;
+        border-radius: 5px;
+        cursor:pointer;
+        color:#fff;*/
+
+        .voice_to_text {
+            width: 600px;
+            text-align: center; /* Centers the button and other content */
+            z-index: 1;
+            background: rgba(255, 255, 255, 0.8); /* Optional: Translucent background */
+            padding: 20px;
+            border-radius: 10px;
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+        }
+
+        .voice_to_text {
+            width: 600px;
+            text-align: center; /* Centers the button and other content */
+            z-index: 1;
+            background: rgba(255, 255, 255, 0.8); /* Translucent background */
+            padding: 20px;
+            
+            border-radius: 10px;
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+            transition: all 0.3s ease; /* Smooth transition for hover effects */
+        }
+        
+        .voice_to_text:hover {
+            background: rgba(255, 255, 255, 1); /* Slightly more opaque background */
+            box-shadow: 0 8px 15px rgba(0, 0, 0, 0.2); /* Stronger shadow on hover */
+            transform: translateY(-5px); /* Moves the container slightly upward */
+        }
+        
+
+
+
+
+
+
+
+
+
+
+
+
+
+        
+        
+
+
+
+
+        .voice_to_text {
+            width: 600px;
+            text-align: center; /* Ensures the button and other content are centered */
+            z-index: 1;
+            background: rgba(255, 255, 255, 0.8); /* Optional: Translucent background */
+            padding: 20px;
+            border-radius: 10px;
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+            margin: 0 auto; /* Centers the container itself if needed */
+        }
+        
+        button {
+            padding: 12px 20px;
+            background: #0ea4da;
+            border: 0;
+            border-radius: 15px;
+            cursor: pointer;
+            color: hwb(0 82% 14%);
+            font-size: 16px;
+            margin: 10px auto; /* Centers the button */
+            display: block; /* Ensures the button takes up its own row */
+            transition: all 0.3s ease; /* Smooth transition for hover effect */
+        }
+        
+        button:hover {
+            background: hwb(131 2% 23%); /* Slightly darker shade for hover */
+            transform: scale(1.05); /* Slight zoom effect on hover */
+            box-shadow: 0 4px 8px hsla(262, 95%, 39%, 0.902); /* Add shadow on hover */
+        }
+        
+        
+
+    
