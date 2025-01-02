@@ -1,0 +1,300 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Challenge Details</title>
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500&display=swap"
+      rel="stylesheet"
+    />
+    <style>
+      body {
+        font-family: "Roboto", sans-serif;
+        margin: 0;
+        padding: 0;
+        background-color: #6e16da;
+        background-image: url("https://t4.ftcdn.net/jpg/05/47/97/81/240_F_547978128_vqEEUYBr1vcAwfRAqReZXTYtyawpgLcC.jpg"); /* Add the path to your image here */
+        background-size: cover; /* Ensures the image covers the whole background */
+        background-position: center; /* Centers the background image */
+        background-repeat: no-repeat; /* Prevents the image from repeating */
+        color: hsl(0, 12%, 13%);
+      }
+
+      .container {
+        max-width: 800px;
+        margin: 0 auto;
+        padding: 20px;
+      }
+
+      header {
+        background-color: #86b0e0;
+        color: rgb(239, 13, 13);
+        padding: 25px 0;
+        background-image: url("https://images.pexels.com/photos/255379/pexels-photo-255379.jpeg?auto=compress&cs=tinysrgb&w=400"); /* Background image */
+        background-size: cover; /* Ensures the background covers the entire header */
+        background-position: center; /* Centers the background image */
+        background-repeat: no-repeat; /* Prevents background from repeating */
+        text-align: center; /* Centers the content */
+        position: relative;
+        box-shadow: 0 4px 10px hwb(118 10% 23% / 0.2); /* Adds shadow effect */
+      }
+
+      .header-logo {
+        width: 100px; /* Adjust size of the image */
+        height: auto; /* Keeps the aspect ratio */
+        display: block;
+        margin: 0 auto 10px auto; /* Centers the logo and adds spacing below */
+      }
+      pre {
+    white-space: pre-wrap; 
+    word-wrap: break-word; 
+    overflow-x: auto;
+    max-width: 100%;
+}
+
+
+      header h1 {
+        text-align: center;
+        margin: 0;
+      }
+
+      .challenge-description {
+        background-color: rgb(207, 193, 193);
+        padding: 20px;
+        border-radius: 8px;
+        box-shadow: 0 2px 5px rgba(209, 12, 12, 0.1);
+        margin-top: 20px;
+        transition: background-color 0.3s ease, box-shadow 0.3s ease; /* Adds smooth transitions */
+      }
+
+      .challenge-description:hover {
+        background-color: hsl(
+          220,
+          57%,
+          92%
+        ); /* Change the background color on hover */
+        box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2); /* Increase shadow on hover */
+      }
+
+      h2 {
+        margin-top: 20px;
+        color: rgb(255, 0, 0);
+      }
+
+      h3 {
+        margin-top: 15px;
+        color: rgb(18, 17, 17);
+      }
+
+      ul {
+        margin-left: 20px;
+      }
+
+      .action-buttons {
+        text-align: center;
+        margin-top: 20px;
+      }
+
+      .button {
+        background-color: #007bff;
+        color: white;
+        padding: 10px 20px;
+        text-decoration: none;
+        border-radius: 5px;
+        margin: 5px;
+        display: inline-block;
+        transition: background-color 0.3s;
+      }
+
+      .button:hover {
+        background-color: hwb(276 5% 5%);
+      }
+
+      footer {
+        text-align: center;
+        padding: 20px;
+        background-color: #007bff;
+        color: hsl(0, 29%, 94%);
+        margin-top: 20px;
+      }
+    </style>
+  </head>
+  <body>
+    <header>
+      <div class="container">
+        <h1>Challenge Details</h1>
+      </div>
+    </header>
+    <main class="container">
+      <h2>Introduction</h2>
+      <div class="challenge-description">
+        <p>Thank you for your application to Interns Scholar.</p>
+        <p>
+          This challenge is intended for backend position or global internship
+          applicants.
+        </p>
+        <p>
+          This challenge consists of 3 missions. After successful completion of
+          Mission 3, you will receive an email with a link to submit your CV and
+          Cover Letter (CL). Once we receive them, our engineers will review
+          your code and documents (CV & CL) altogether, and we will contact you
+          via email with the screening result. If you haven't received your
+          result within a month, please let us know!
+        </p>
+        <p>
+          Tips: Due to the competitiveness of our application process, we highly
+          recommend applicants to explain their motivation clearly in the Cover
+          Letter (CL).
+        </p>
+      </div>
+
+      <h2>Mission 1: Write a program which fulfills the requirements below</h2>
+      <div class="challenge-description">
+        <h3>Description</h3>
+        <p>
+          We want you to calculate the sum of squares of given integers,
+          excluding any negatives.
+        </p>
+        <p>
+          The first line of the input will be an integer N (1 <= N <= 100),
+          indicating the number of test cases to follow.
+        </p>
+        <p>
+          Each of the test cases will consist of a line with an integer X (0 < X
+          <= 100), followed by another line consisting of X number of
+          space-separated integers Yn (-100 <= Yn <= 100).
+        </p>
+        <p>
+          For each test case, calculate the sum of squares of the integers,
+          excluding any negatives, and print the calculated sum in the output.
+        </p>
+        <p>
+          <strong>Note:</strong> There should be no output until all the input
+          has been received.
+        </p>
+        <p>
+          <strong>Note 2:</strong> Do not put blank lines between test cases
+          solutions.
+        </p>
+        <p>
+          <strong>Note 3:</strong> Take input from standard input, and output to
+          standard output.
+        </p>
+
+        <h3>Rules</h3>
+        <p>
+          Write your solution using Go Programming Language or Python
+          Programming Language. Do not submit your solution with both languages
+          at once!
+        </p>
+        <p>
+          You may only use standard library packages. In addition, extra point
+          is awarded if solution does not declare any global variables.
+        </p>
+        <h4>Specific rules for Go solution</h4>
+        <p>
+          Your source code must be a single file. Do not use any for and goto
+          statement. Your solution will be tested against Go 1.22 (as of April
+          2024) or higher.
+        </p>
+
+        <h4>Specific rules for Python solution</h4>
+        <p>
+          Your source code must be a single file, containing at least a main
+          function. Do not use any for loop, while loop, or any list / set /
+          dictionary comprehension. Your solution will be tested against Python
+          3.12 (as of April 2024) or higher.
+        </p>
+
+        <h3>Sample Input</h3>
+        <pre>
+2
+4
+3 -1 1 14
+5
+9 6 -53 32 16</pre
+        >
+
+        <h3>Sample Output</h3>
+        <pre>
+206
+1397</pre
+        >
+      </div>
+
+      <h2>Mission 2: Publish your source code as a secret gist</h2>
+      <div class="challenge-description">
+        <h3>Description</h3>
+        <p>
+          Publish your source code as a secret gist. You will need a GitHub
+          account to create a secret gist. Please make sure not to publish it as
+          a public gist.
+        </p>
+        <p>
+          Your program will be auto-tested, so please be strict about the
+          input/output specification. For failed solution, we will still assess
+          it case-by-case but it will cause points reduction to your overall
+          score.
+        </p>
+        <p>
+          <strong>Note:</strong> Make sure to upload only a single file as your
+          solution and no additional files should exist in your provided gist.
+        </p>
+      </div>
+
+      <h2>Mission 3: Send us the URL of your work</h2>
+      <div class="challenge-description">
+        <h3>Description</h3>
+        <p>First, construct a JSON string like below:</p>
+        <h4>Go solution</h4>
+        <pre>
+{
+  "github_url": "https://gist.github.com/YOUR_ACCOUNT/GIST_ID",
+  "contact_email": "EMAIL",
+  "solution_language": "golang"
+}</pre
+        >
+        <h4>Python solution</h4>
+        <pre>
+{
+  "github_url": "https://gist.github.com/YOUR_ACCOUNT/GIST_ID",
+  "contact_email": "EMAIL",
+  "solution_language": "python"
+}</pre
+        >
+        <p>
+          Fill in your email address for EMAIL, and the path to your secret gist
+          for YOUR_ACCOUNT/GIST_ID. In addition, solution_language should be
+          filled with the solution language of your choice (golang or python).
+          Be sure you have double-checked your email address; we will contact
+          you by email.
+        </p>
+        <p>
+          Then, make an HTTP POST request to the following URL with the JSON
+          string as the body part:
+        </p>
+        <pre>https://interns-scholar-backend.onrender.com/api/users/submit</pre>
+        <h3>Content type</h3>
+        <p>
+          The Content-Type: of the request must be
+          <code>application/json</code>.
+        </p>
+      </div>
+
+      <h2>Rules</h2>
+      <div class="challenge-description">
+        <p>
+          You do not have to disclose how you achieved this mission at this
+          time. Do not hesitate to use source codes or tools on the net, but do
+          the exploring process by yourself of course, do not ask your friend to
+          help you. The only thing that matters is that it works!
+        </p>
+        <p>No bruteforce attacks, please!</p>
+      </div>
+    </main>
+    <footer>
+      <p>Interns Scholar © 2024 | Contact us here | Privacy Policy</p>
+    </footer>
+  </body>
+</html>
